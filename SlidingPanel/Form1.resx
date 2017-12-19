@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Au_Secours.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Au_Secours.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Au_Secours.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Au_Secours.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Au_Secours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 390</value>
+  </data>
+  <data name="Au_Secours.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Au_Secours.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="Au_Secours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Au_Secours.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Au_Secours.Text" xml:space="preserve">
+    <value>      Au secours</value>
+  </data>
+  <data name="Au_Secours.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Au_Secours.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Au_Secours.Name" xml:space="preserve">
+    <value>Au_Secours</value>
+  </data>
+  <data name="&gt;&gt;Au_Secours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Au_Secours.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Au_Secours.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Propriétés.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Propriétés.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Propriétés.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Propriétés.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Propriétés.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 306</value>
+  </data>
+  <data name="Propriétés.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Propriétés.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="Propriétés.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="Propriétés.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Propriétés.Text" xml:space="preserve">
+    <value>      Propriétés</value>
+  </data>
+  <data name="Propriétés.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Propriétés.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Propriétés.Name" xml:space="preserve">
+    <value>Propriétés</value>
+  </data>
+  <data name="&gt;&gt;Propriétés.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Propriétés.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Propriétés.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Imprimer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Imprimer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Imprimer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Imprimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Imprimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 256</value>
+  </data>
+  <data name="Imprimer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Imprimer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="Imprimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="Imprimer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Imprimer.Text" xml:space="preserve">
+    <value>      Imprimer</value>
+  </data>
+  <data name="Imprimer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Imprimer.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Imprimer.Name" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;Imprimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Imprimer.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Imprimer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Rechercher.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Rechercher.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Rechercher.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Rechercher.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Rechercher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 106</value>
+  </data>
+  <data name="Rechercher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Rechercher.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="Rechercher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="Rechercher.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Rechercher.Text" xml:space="preserve">
+    <value>      Rechercher</value>
+  </data>
+  <data name="Rechercher.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Rechercher.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Rechercher.Name" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="&gt;&gt;Rechercher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rechercher.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Rechercher.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SQL_Server.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="SQL_Server.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="SQL_Server.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SQL_Server.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="SQL_Server.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
+  </data>
+  <data name="SQL_Server.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="SQL_Server.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="SQL_Server.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="SQL_Server.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SQL_Server.Text" xml:space="preserve">
+    <value>      SQL Server</value>
+  </data>
+  <data name="SQL_Server.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SQL_Server.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;SQL_Server.Name" xml:space="preserve">
+    <value>SQL_Server</value>
+  </data>
+  <data name="&gt;&gt;SQL_Server.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SQL_Server.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;SQL_Server.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Swap_Date.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Swap_Date.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Swap_Date.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Swap_Date.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Swap_Date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 206</value>
+  </data>
+  <data name="Swap_Date.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Swap_Date.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 0, 0</value>
+  </data>
+  <data name="Swap_Date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="Swap_Date.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Swap_Date.Text" xml:space="preserve">
+    <value>   Swap Data</value>
+  </data>
+  <data name="Swap_Date.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Swap_Date.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Swap_Date.Name" xml:space="preserve">
+    <value>Swap_Date</value>
+  </data>
+  <data name="&gt;&gt;Swap_Date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Swap_Date.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Swap_Date.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Explorateur.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="Explorateur.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Explorateur.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Explorateur.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt</value>
+  </data>
+  <data name="Explorateur.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Explorateur.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Explorateur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="Explorateur.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Explorateur.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 0, 0</value>
+  </data>
+  <data name="Explorateur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="Explorateur.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Explorateur.Text" xml:space="preserve">
+    <value>      Explorateur</value>
+  </data>
+  <data name="Explorateur.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Explorateur.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Explorateur.Name" xml:space="preserve">
+    <value>Explorateur</value>
+  </data>
+  <data name="&gt;&gt;Explorateur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Explorateur.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Explorateur.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="Iron_Text.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Iron_Text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="Iron_Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 10</value>
+  </data>
+  <data name="Iron_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="Iron_Text.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Iron_Text.Text" xml:space="preserve">
+    <value>Iron Stuff</value>
+  </data>
+  <data name="&gt;&gt;Iron_Text.Name" xml:space="preserve">
+    <value>Iron_Text</value>
+  </data>
+  <data name="&gt;&gt;Iron_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Iron_Text.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Iron_Text.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Masque.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Masque.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Masque.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Masque.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0mCQAAAAAAADYAAAAoAAAAHQAAABoAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUmJSUmJSUmJSUmJSX/
+        //////////////////////////////////////////////////////////////8mJSUmJSUmJSUmJSUm
+        JSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JQAmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUlJiUl////////////
+        ////////////////////////////////////////////////////JiUlJiUlJiUlJiUlJiUlJiUlACYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJf//////////////////////
+        /////////////////////////////////////////yYlJSYlJSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJQAmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUmJSUm
+        JSUmJSUAJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUl
+        JiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlJiUlACYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYlJSYl
+        JQA=
+</value>
+  </data>
+  <data name="Masque.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="Masque.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 3</value>
+  </data>
+  <data name="Masque.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Masque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="Masque.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Masque.Name" xml:space="preserve">
+    <value>Masque</value>
+  </data>
+  <data name="&gt;&gt;Masque.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Masque.Parent" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Masque.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Panel_Left.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Panel_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="Panel_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 443</value>
+  </data>
+  <data name="Panel_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel_Left.Name" xml:space="preserve">
+    <value>Panel_Left</value>
+  </data>
+  <data name="&gt;&gt;Panel_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel_Left.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Left.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 9</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 32</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TextBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Wingdings 3, 11.25pt</value>
+  </data>
+  <data name="TextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="TextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 18</value>
+  </data>
+  <data name="TextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="TextBox3.Text" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Name" xml:space="preserve">
+    <value>TextBox3</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Parent" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="TextBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TextBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11.25pt</value>
+  </data>
+  <data name="TextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 12</value>
+  </data>
+  <data name="TextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 19</value>
+  </data>
+  <data name="TextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TextBox2.Text" xml:space="preserve">
+    <value>Sliding Menu - IM</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Name" xml:space="preserve">
+    <value>TextBox2</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Parent" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Header.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>629, 50</value>
+  </data>
+  <data name="Header.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Header.Name" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;Header.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Header.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Header.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>629, 493</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
